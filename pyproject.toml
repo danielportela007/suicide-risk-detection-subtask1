@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "suicide-risk-detection-daic-woz-post-frases"
+version = "0.1.0"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "joblib==1.5.2",
+  "numpy==2.2.6",
+  "openpyxl==3.1.5",
+  "pandas==2.3.2",
+  "PyYAML==6.0.3",
+  "scikit-learn==1.7.2",
+  "sentence-transformers==5.1.1",
+  "torch==2.8.0",
+  "tqdm==4.67.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==8.4.2",
+  "ruff==0.13.2",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

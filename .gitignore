@@ -1,0 +1,12 @@
+data/raw/
+outputs/
+models/
+.hf-cache/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+.venv/
+.DS_Store
+data/anchors/v1.1.0/curation_manifest.json
