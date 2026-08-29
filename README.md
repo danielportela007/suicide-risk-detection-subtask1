@@ -1,4 +1,4 @@
-# Explainable Suicide Risk Detection â Subtask 1
+# Explainable Suicide Risk Detection — Subtask 1
 
 Reproducible implementation of `PostFrasesV1` for the IEEE Big Data Cup 2026 suicide-risk detection task. Given one Reddit post, the system predicts `Indicator`, `Ideation`, `Behavior`, or `Attempt` and extracts verbatim evidence spans.
 
@@ -49,7 +49,7 @@ Their expected SHA-256 hashes are recorded in `results/data_validation.json`. Do
 
 ## Reproduction
 
-Python 3.11â3.13 is supported. The recorded run used Python 3.12.11 on CPU.
+Python 3.11–3.13 is supported. The recorded run used Python 3.12.11 on CPU.
 
 ```bash
 python -m pip install -e '.[dev]'
