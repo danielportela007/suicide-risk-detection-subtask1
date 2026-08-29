@@ -1,0 +1,44 @@
+{
+  "catalog_version": "1.0.0",
+  "language": "English",
+  "phrases_per_target": 15,
+  "batches": {
+    "risk_levels": {
+      "batch_name": "risk_levels",
+      "targets": [
+        {
+          "target_type": "risk_level",
+          "target_label": "Indicator",
+          "anchor_role": "hard_negative",
+          "definition": "The text may contain distress or adverse circumstances but contains no explicit or semantically recognizable self-directed suicidal expression.",
+          "must_include": "A plausible first-person expression of distress, difficulty, or a risk/protective factor without suicidal ideation, a suicide plan, suicidal behavior, an attempt, or self-harm.",
+          "must_exclude": "Any wish to die, desire to disappear permanently, suicidal thought, suicide plan, preparation, access-to-means statement, self-harm act, or suicide attempt."
+        },
+        {
+          "target_type": "risk_level",
+          "target_label": "Ideation",
+          "anchor_role": "positive",
+          "definition": "The speaker expresses a current or recurring self-directed wish to die or suicidal thought, but no plan, preparation, suicidal behavior, or attempt is present.",
+          "must_include": "A semantically clear first-person suicidal thought or wish to die.",
+          "must_exclude": "A method, plan, preparation, access to means, self-harm behavior, interrupted attempt, aborted attempt, or completed past/recent attempt."
+        },
+        {
+          "target_type": "risk_level",
+          "target_label": "Behavior",
+          "anchor_role": "positive",
+          "definition": "The speaker expresses suicidality together with a plan, preparation, access to means, or self-harm/suicidal behavior, but does not state that a suicide attempt has already occurred.",
+          "must_include": "A semantically clear first-person suicidal expression plus a plan, preparation, access, or behavior cue.",
+          "must_exclude": "A statement that an actual suicide attempt was carried out. Never provide actionable method details, quantities, or instructions."
+        },
+        {
+          "target_type": "risk_level",
+          "target_label": "Attempt",
+          "anchor_role": "positive",
+          "definition": "The speaker explicitly states that they made a suicide attempt in the recent or more distant past.",
+          "must_include": "A semantically unambiguous first-person reference to an attempt that actually occurred, with clear past or recent temporality.",
+          "must_exclude": "Mere ideation, a hypothetical future act, planning without action, third-person events, actionable method details, quantities, or graphic descriptions."
+        }
+      ]
+    }
+  }
+}
