@@ -1,0 +1,26 @@
+{
+  "train_file": "train dataset-con-frases-con-segmentosV1.xlsx",
+  "train_sha256": "10d3cd4384336bfbea73c6ad8cd04f53018e12e961038207b22d7703d7e583b5",
+  "test_file": "test dataset-con-frases.xlsx",
+  "test_sha256": "2c2746e44159a49fa73e21cb972abc942507e6d5b26417278094584e6da4414d",
+  "train_rows": 1635,
+  "test_rows": 378,
+  "train_users": 153,
+  "test_users": 36,
+  "user_overlap": 0,
+  "risk_counts": {
+    "Indicator": 611,
+    "Ideation": 519,
+    "Behavior": 391,
+    "Attempt": 114
+  },
+  "missing_gold_evidence": 5,
+  "train_chronology_issue_count": 0,
+  "test_chronology_issue_count": 0,
+  "post_frases_units": 9276,
+  "post_frases_literal_alignment_rate": 1.0,
+  "post_segmentos_units": 52875,
+  "post_segmentos_literal_alignment_rate": 0.8547706855791962,
+  "post_segmentosV1_units": 47929,
+  "post_segmentosV1_literal_alignment_rate": 0.829372613657702
+}

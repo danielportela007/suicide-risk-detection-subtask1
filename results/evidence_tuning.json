@@ -1,0 +1,371 @@
+{
+  "status": "exploratory tuning on repeated-grouped OOF risk predictions",
+  "best": {
+    "top_k": 2,
+    "min_similarity": 0.4,
+    "max_tokens": 12,
+    "phrase_f1": 0.49379610875023716
+  },
+  "grid": [
+    {
+      "top_k": 2,
+      "min_similarity": 0.4,
+      "max_tokens": 12,
+      "phrase_f1": 0.49379610875023716
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.35,
+      "max_tokens": 12,
+      "phrase_f1": 0.49379610875023716
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.4,
+      "max_tokens": 12,
+      "phrase_f1": 0.49212950827629726
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.35,
+      "max_tokens": 12,
+      "phrase_f1": 0.49192563467792827
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.3,
+      "max_tokens": 12,
+      "phrase_f1": 0.4917217610795592
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.3,
+      "max_tokens": 12,
+      "phrase_f1": 0.49169621068703634
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.2,
+      "max_tokens": 12,
+      "phrase_f1": 0.4913140138828212
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.2,
+      "max_tokens": 12,
+      "phrase_f1": 0.49108458989192927
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.25,
+      "max_tokens": 12,
+      "phrase_f1": 0.49049851948934514
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.25,
+      "max_tokens": 12,
+      "phrase_f1": 0.4898613483017153
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.2,
+      "max_tokens": 20,
+      "phrase_f1": 0.48985261086178516
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.4,
+      "max_tokens": 20,
+      "phrase_f1": 0.4897098993429269
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.3,
+      "max_tokens": 20,
+      "phrase_f1": 0.4895468004642316
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.35,
+      "max_tokens": 20,
+      "phrase_f1": 0.48940408894537335
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.4,
+      "max_tokens": 12,
+      "phrase_f1": 0.4882895358124716
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.25,
+      "max_tokens": 20,
+      "phrase_f1": 0.48811968527564853
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.2,
+      "max_tokens": 32,
+      "phrase_f1": 0.4872158456562126
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.3,
+      "max_tokens": 32,
+      "phrase_f1": 0.48691003525865917
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.4,
+      "max_tokens": 32,
+      "phrase_f1": 0.4866042248611055
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.35,
+      "max_tokens": 32,
+      "phrase_f1": 0.4863595765430628
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.25,
+      "max_tokens": 32,
+      "phrase_f1": 0.485482920070076
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.2,
+      "max_tokens": 40,
+      "phrase_f1": 0.4849732360741535
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.35,
+      "max_tokens": 12,
+      "phrase_f1": 0.48485572191994214
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.3,
+      "max_tokens": 20,
+      "phrase_f1": 0.4847085092956653
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.3,
+      "max_tokens": 40,
+      "phrase_f1": 0.4846674256766
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.4,
+      "max_tokens": 20,
+      "phrase_f1": 0.4843007620989272
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.4,
+      "max_tokens": 40,
+      "phrase_f1": 0.48415774168067743
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.35,
+      "max_tokens": 40,
+      "phrase_f1": 0.48391309336263466
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.2,
+      "max_tokens": 20,
+      "phrase_f1": 0.48328139410708215
+    },
+    {
+      "top_k": 2,
+      "min_similarity": 0.25,
+      "max_tokens": 40,
+      "phrase_f1": 0.4832403104880169
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.4,
+      "max_tokens": 20,
+      "phrase_f1": 0.4831266796404411
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.35,
+      "max_tokens": 20,
+      "phrase_f1": 0.48266977331197514
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.25,
+      "max_tokens": 20,
+      "phrase_f1": 0.48226202611523716
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.3,
+      "max_tokens": 12,
+      "phrase_f1": 0.48214711554161094
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.3,
+      "max_tokens": 20,
+      "phrase_f1": 0.4807442710195004
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.3,
+      "max_tokens": 32,
+      "phrase_f1": 0.480743167807388
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.35,
+      "max_tokens": 20,
+      "phrase_f1": 0.4803336113427856
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.2,
+      "max_tokens": 12,
+      "phrase_f1": 0.4802510910767792
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.4,
+      "max_tokens": 32,
+      "phrase_f1": 0.47983120854680483
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.25,
+      "max_tokens": 12,
+      "phrase_f1": 0.47951714612265073
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.2,
+      "max_tokens": 20,
+      "phrase_f1": 0.47943947998993874
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.4,
+      "max_tokens": 32,
+      "phrase_f1": 0.4793160526188049
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.2,
+      "max_tokens": 32,
+      "phrase_f1": 0.4793160526188049
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.3,
+      "max_tokens": 32,
+      "phrase_f1": 0.4792428875915114
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.3,
+      "max_tokens": 40,
+      "phrase_f1": 0.4792141158196204
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.4,
+      "max_tokens": 40,
+      "phrase_f1": 0.4791176509525134
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.3,
+      "max_tokens": 40,
+      "phrase_f1": 0.4786312667964044
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.25,
+      "max_tokens": 32,
+      "phrase_f1": 0.47829668462695984
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.35,
+      "max_tokens": 32,
+      "phrase_f1": 0.4780928110285909
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.35,
+      "max_tokens": 32,
+      "phrase_f1": 0.4780575082409945
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.25,
+      "max_tokens": 20,
+      "phrase_f1": 0.4778084912029866
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.2,
+      "max_tokens": 32,
+      "phrase_f1": 0.4777953850430915
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.2,
+      "max_tokens": 40,
+      "phrase_f1": 0.4777870006310373
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.4,
+      "max_tokens": 40,
+      "phrase_f1": 0.47778700063103724
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.2,
+      "max_tokens": 40,
+      "phrase_f1": 0.47728570104716894
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.35,
+      "max_tokens": 40,
+      "phrase_f1": 0.47724201384751846
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.25,
+      "max_tokens": 40,
+      "phrase_f1": 0.47676763263919225
+    },
+    {
+      "top_k": 1,
+      "min_similarity": 0.35,
+      "max_tokens": 40,
+      "phrase_f1": 0.47656375904082326
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.25,
+      "max_tokens": 32,
+      "phrase_f1": 0.4761643962561394
+    },
+    {
+      "top_k": 3,
+      "min_similarity": 0.25,
+      "max_tokens": 40,
+      "phrase_f1": 0.4756547122602169
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "model_file": "models/subtask1_post_frases/risk_model.joblib",
+  "publication_status": "excluded because it is derived from restricted competition data",
+  "selected_configuration": {
+    "experiment": "early_fusion_all",
+    "classifier": "logistic_regression",
+    "C": 0.25,
+    "selected_features": 128,
+    "input_features": 896
+  },
+  "sha256": "09ffdeb3c74878f3158432ab10858347aa617b63326505c3f2b46a76422fb8f6"
+}
