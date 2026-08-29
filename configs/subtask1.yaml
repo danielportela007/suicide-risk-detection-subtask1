@@ -1,0 +1,44 @@
+project:
+  seed: 2026
+  train_path: "data/raw/train dataset-con-frases-con-segmentosV1.xlsx"
+  test_path: "data/raw/test dataset-con-frases.xlsx"
+  anchors_dir: "data/anchors/v1.1.0"
+  output_dir: "outputs/subtask1_post_frases"
+  model_dir: "models/subtask1_post_frases"
+
+embedding:
+  model_name: "sentence-transformers/all-mpnet-base-v2"
+  revision: "e8c3b32edf5434bc2275fc9bab85f82640a19130"
+  batch_size: 32
+  max_seq_length: 384
+  normalize_embeddings: true
+  device: null
+
+features:
+  prompting_strategies: ["zero_shot", "meta_prompting"]
+  unit_views: ["sentence"]
+  unit_source_columns:
+    sentence: "post_frases"
+  statistics: ["mean", "median", "std", "var", "max", "min", "p25", "p75"]
+  include_post_embedding: true
+  segment_max_tokens: 40
+
+validation:
+  n_splits: 5
+  n_repeats: 3
+  random_state: 2026
+
+models:
+  classifiers: ["logistic_regression", "linear_svm"]
+  c_values: [0.25, 1.0]
+  selection_k: [64, 128, "all"]
+  allow_all_features_in_early_fusion: false
+
+evidence:
+  embedding_batch_size: 32
+  candidate_max_tokens: 40
+  window_sizes: [6]
+  top_k_values: [1, 2, 3]
+  min_similarity_values: [0.20, 0.25, 0.30, 0.35, 0.40]
+  max_tokens_values: [12, 20, 32, 40]
+  indicator_output: ""
