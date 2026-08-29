@@ -26,6 +26,8 @@ Evidence candidates are generated from the untouched post with character offsets
 
 The complete methodology, metric definitions, experiments, results and limitations are in [DOCUMENTACION_COMPLETA_SUBTASK1.md](DOCUMENTACION_COMPLETA_SUBTASK1.md).
 
+A detailed interpretation of cross-validation stability, configuration comparisons, per-class errors, the confusion matrix, evidence tuning and the exact train/test protocol is available in [ANALISIS_COMPLETO_RESULTADOS.md](ANALISIS_COMPLETO_RESULTADOS.md).
+
 ## Repository contents
 
 - `configs/`: complete experiment configuration;
