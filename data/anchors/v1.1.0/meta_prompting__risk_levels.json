@@ -1,0 +1,713 @@
+{
+  "prompting_strategy": "meta_prompting",
+  "prompt_version": "1.0.0",
+  "batch_name": "risk_levels",
+  "targets": [
+    {
+      "target_type": "risk_level",
+      "target_label": "Indicator",
+      "anchor_role": "hard_negative",
+      "coverage_summary": {
+        "covered_modes": [
+          "indirect",
+          "colloquial",
+          "hesitant_or_evasive",
+          "fragment_or_disfluency",
+          "functional",
+          "temporal_or_situational",
+          "uncommon_but_plausible"
+        ],
+        "closest_confusions_checked": [
+          "Ideation"
+        ]
+      },
+      "phrases": [
+        {
+          "id": "risk_levels__indicator__mp__01",
+          "text": "Every ordinary task feels heavier than it has any right to feel.",
+          "expression_modes": [
+            "indirect"
+          ],
+          "explicitness": "indirect",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__mp__02",
+          "text": "Lately, I wake up already exhausted by the day ahead.",
+          "expression_modes": [
+            "indirect",
+            "temporal_or_situational"
+          ],
+          "explicitness": "indirect",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__mp__03",
+          "text": "I leave messages unanswered because conversation takes more energy than I have.",
+          "expression_modes": [
+            "indirect",
+            "functional"
+          ],
+          "explicitness": "mixed",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__mp__04",
+          "text": "I just can't catch a break from the stress.",
+          "expression_modes": [
+            "colloquial"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__mp__05",
+          "text": "I've barely kept up with laundry or meals this week.",
+          "expression_modes": [
+            "colloquial",
+            "functional"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__mp__06",
+          "text": "Since the breakup, I've been a complete emotional mess.",
+          "expression_modes": [
+            "colloquial",
+            "temporal_or_situational"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__mp__07",
+          "text": "Maybe I am overreacting, but everything feels painfully difficult right now.",
+          "expression_modes": [
+            "hesitant_or_evasive"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__mp__08",
+          "text": "I do not usually admit how badly my anxiety affects me.",
+          "expression_modes": [
+            "hesitant_or_evasive"
+          ],
+          "explicitness": "explicit",
+          "temporality": "general",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__mp__09",
+          "text": "No sleep, no focus... just constant pressure.",
+          "expression_modes": [
+            "fragment_or_disfluency"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__mp__10",
+          "text": "Honestly, the sadness... it has been relentless.",
+          "expression_modes": [
+            "fragment_or_disfluency"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__mp__11",
+          "text": "I miss deadlines because my concentration disappears whenever stress rises.",
+          "expression_modes": [
+            "functional"
+          ],
+          "explicitness": "mixed",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__mp__12",
+          "text": "I avoid social plans because I feel too drained to participate.",
+          "expression_modes": [
+            "functional"
+          ],
+          "explicitness": "mixed",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__mp__13",
+          "text": "After losing my job, I have struggled to maintain any routine.",
+          "expression_modes": [
+            "temporal_or_situational"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__mp__14",
+          "text": "When my pain flares, even getting dressed becomes an exhausting challenge.",
+          "expression_modes": [
+            "temporal_or_situational"
+          ],
+          "explicitness": "mixed",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__mp__15",
+          "text": "My days feel reduced to managing one strain after another.",
+          "expression_modes": [
+            "uncommon_but_plausible"
+          ],
+          "explicitness": "indirect",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        }
+      ]
+    },
+    {
+      "target_type": "risk_level",
+      "target_label": "Ideation",
+      "anchor_role": "positive",
+      "coverage_summary": {
+        "covered_modes": [
+          "indirect",
+          "colloquial",
+          "hesitant_or_evasive",
+          "fragment_or_disfluency",
+          "functional",
+          "temporal_or_situational",
+          "uncommon_but_plausible"
+        ],
+        "closest_confusions_checked": [
+          "Indicator",
+          "Behavior"
+        ]
+      },
+      "phrases": [
+        {
+          "id": "risk_levels__ideation__mp__01",
+          "text": "My thoughts keep returning to the idea that I should no longer be alive.",
+          "expression_modes": [
+            "indirect"
+          ],
+          "explicitness": "mixed",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__mp__02",
+          "text": "Some mornings, I wish there were no more mornings for me.",
+          "expression_modes": [
+            "indirect",
+            "temporal_or_situational"
+          ],
+          "explicitness": "mixed",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__mp__03",
+          "text": "I avoid quiet moments because thoughts of ending my life return then.",
+          "expression_modes": [
+            "indirect",
+            "functional"
+          ],
+          "explicitness": "mixed",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__mp__04",
+          "text": "I can't stop thinking I'd rather be dead.",
+          "expression_modes": [
+            "colloquial"
+          ],
+          "explicitness": "explicit",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__mp__05",
+          "text": "I've been pulling away because my mind keeps going back to suicide.",
+          "expression_modes": [
+            "colloquial",
+            "functional"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__mp__06",
+          "text": "When things get quiet at night, I keep wishing I wasn't alive.",
+          "expression_modes": [
+            "colloquial",
+            "temporal_or_situational"
+          ],
+          "explicitness": "explicit",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__mp__07",
+          "text": "I do not know how to say this, but I sometimes want to die.",
+          "expression_modes": [
+            "hesitant_or_evasive"
+          ],
+          "explicitness": "explicit",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__mp__08",
+          "text": "I probably should not minimize it; thoughts of suicide keep appearing.",
+          "expression_modes": [
+            "hesitant_or_evasive"
+          ],
+          "explicitness": "explicit",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__mp__09",
+          "text": "Being alive... sometimes I do not want that.",
+          "expression_modes": [
+            "fragment_or_disfluency"
+          ],
+          "explicitness": "mixed",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__mp__10",
+          "text": "The thought of dying, I mean... it keeps returning.",
+          "expression_modes": [
+            "fragment_or_disfluency"
+          ],
+          "explicitness": "explicit",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__mp__11",
+          "text": "I stay busy to keep my recurring wish to die out of focus.",
+          "expression_modes": [
+            "functional"
+          ],
+          "explicitness": "explicit",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__mp__12",
+          "text": "I struggle to follow conversations when suicidal thoughts take over my attention.",
+          "expression_modes": [
+            "functional"
+          ],
+          "explicitness": "explicit",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__mp__13",
+          "text": "Since the loss, I have repeatedly thought that I do not want to live.",
+          "expression_modes": [
+            "temporal_or_situational"
+          ],
+          "explicitness": "explicit",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__mp__14",
+          "text": "Whenever the pressure spikes, my mind turns toward ending my life.",
+          "expression_modes": [
+            "temporal_or_situational"
+          ],
+          "explicitness": "explicit",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__mp__15",
+          "text": "Sometimes I picture no longer being alive, and part of me wants that.",
+          "expression_modes": [
+            "uncommon_but_plausible"
+          ],
+          "explicitness": "indirect",
+          "temporality": "recurring",
+          "curation_status": "revised"
+        }
+      ]
+    },
+    {
+      "target_type": "risk_level",
+      "target_label": "Behavior",
+      "anchor_role": "positive",
+      "coverage_summary": {
+        "covered_modes": [
+          "indirect",
+          "colloquial",
+          "hesitant_or_evasive",
+          "fragment_or_disfluency",
+          "functional",
+          "temporal_or_situational",
+          "uncommon_but_plausible"
+        ],
+        "closest_confusions_checked": [
+          "Ideation",
+          "Attempt"
+        ]
+      },
+      "phrases": [
+        {
+          "id": "risk_levels__behavior__mp__01",
+          "text": "I've gone past just thinking about dying; I've started getting ready for it.",
+          "expression_modes": [
+            "indirect"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__mp__02",
+          "text": "Lately, this has become more than a thought—I have decided when I mean to die.",
+          "expression_modes": [
+            "indirect",
+            "temporal_or_situational"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__mp__03",
+          "text": "I'm sorting out who handles everything afterward because I intend to end my life.",
+          "expression_modes": [
+            "indirect",
+            "functional"
+          ],
+          "explicitness": "explicit",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__mp__04",
+          "text": "I'm not just thinking about suicide anymore; I've made a real plan.",
+          "expression_modes": [
+            "colloquial"
+          ],
+          "explicitness": "explicit",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__mp__05",
+          "text": "I've been giving away things I care about because I don't expect to stay alive.",
+          "expression_modes": [
+            "colloquial",
+            "functional"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__mp__06",
+          "text": "This week I started writing goodbye messages because I plan to die.",
+          "expression_modes": [
+            "colloquial",
+            "temporal_or_situational"
+          ],
+          "explicitness": "explicit",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__mp__07",
+          "text": "I hate admitting this, but I have taken steps toward ending my life.",
+          "expression_modes": [
+            "hesitant_or_evasive"
+          ],
+          "explicitness": "explicit",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__mp__08",
+          "text": "I'd rather not explain what, but I can access something I might use to die.",
+          "expression_modes": [
+            "hesitant_or_evasive"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__mp__09",
+          "text": "The suicidal thoughts turned into preparations... I haven't acted yet, but I'm close.",
+          "expression_modes": [
+            "fragment_or_disfluency"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__mp__10",
+          "text": "A time picked, goodbye messages written... I intend to end my life.",
+          "expression_modes": [
+            "fragment_or_disfluency"
+          ],
+          "explicitness": "explicit",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__mp__11",
+          "text": "I'm clearing future commitments because I'm preparing not to be alive.",
+          "expression_modes": [
+            "functional"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__mp__12",
+          "text": "I keep something within reach because my suicidal thoughts have become an intention.",
+          "expression_modes": [
+            "functional"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__mp__13",
+          "text": "Since the suicidal urge got stronger, I have started deliberately hurting myself.",
+          "expression_modes": [
+            "temporal_or_situational"
+          ],
+          "explicitness": "mixed",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__mp__14",
+          "text": "When I want to die, I sometimes harm myself on purpose.",
+          "expression_modes": [
+            "temporal_or_situational"
+          ],
+          "explicitness": "explicit",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__mp__15",
+          "text": "No one around me knows I've begun getting ready to end my life.",
+          "expression_modes": [
+            "uncommon_but_plausible"
+          ],
+          "explicitness": "explicit",
+          "temporality": "current",
+          "curation_status": "revised"
+        }
+      ]
+    },
+    {
+      "target_type": "risk_level",
+      "target_label": "Attempt",
+      "anchor_role": "positive",
+      "coverage_summary": {
+        "covered_modes": [
+          "indirect",
+          "colloquial",
+          "hesitant_or_evasive",
+          "fragment_or_disfluency",
+          "functional",
+          "temporal_or_situational",
+          "uncommon_but_plausible"
+        ],
+        "closest_confusions_checked": [
+          "Ideation",
+          "Behavior"
+        ]
+      },
+      "phrases": [
+        {
+          "id": "risk_levels__attempt__mp__01",
+          "text": "I went beyond thinking about death and actually acted, intending not to survive.",
+          "expression_modes": [
+            "indirect"
+          ],
+          "explicitness": "mixed",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__mp__02",
+          "text": "Last year, I followed through on suicidal thoughts and survived.",
+          "expression_modes": [
+            "indirect",
+            "temporal_or_situational"
+          ],
+          "explicitness": "mixed",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__mp__03",
+          "text": "I am still receiving care because I acted on an intention to die.",
+          "expression_modes": [
+            "indirect",
+            "functional"
+          ],
+          "explicitness": "explicit",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__mp__04",
+          "text": "I've tried to take my own life before.",
+          "expression_modes": [
+            "colloquial"
+          ],
+          "explicitness": "explicit",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__mp__05",
+          "text": "I'm rebuilding things after what I did when I meant to die.",
+          "expression_modes": [
+            "colloquial",
+            "functional"
+          ],
+          "explicitness": "mixed",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__mp__06",
+          "text": "That night, I went through with trying to end my life.",
+          "expression_modes": [
+            "colloquial",
+            "temporal_or_situational"
+          ],
+          "explicitness": "explicit",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__mp__07",
+          "text": "I don't usually say this, but I once acted with the intention of dying.",
+          "expression_modes": [
+            "hesitant_or_evasive"
+          ],
+          "explicitness": "explicit",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__mp__08",
+          "text": "This is difficult to admit, though I previously tried to end my life.",
+          "expression_modes": [
+            "hesitant_or_evasive"
+          ],
+          "explicitness": "explicit",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__mp__09",
+          "text": "Not just suicidal thoughts... I actually acted on them and survived.",
+          "expression_modes": [
+            "fragment_or_disfluency"
+          ],
+          "explicitness": "mixed",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__mp__10",
+          "text": "That suicidal crisis... I went through with trying to die and lived.",
+          "expression_modes": [
+            "fragment_or_disfluency"
+          ],
+          "explicitness": "mixed",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__mp__11",
+          "text": "I attend follow-up appointments because I acted on my wish to die.",
+          "expression_modes": [
+            "functional"
+          ],
+          "explicitness": "mixed",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__mp__12",
+          "text": "My family learned about my suicidal crisis after I acted and survived.",
+          "expression_modes": [
+            "functional"
+          ],
+          "explicitness": "mixed",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__mp__13",
+          "text": "During an earlier crisis, I carried out an act intended to cause my death.",
+          "expression_modes": [
+            "temporal_or_situational"
+          ],
+          "explicitness": "explicit",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__mp__14",
+          "text": "Recently, I acted on suicidal intent and needed emergency care.",
+          "expression_modes": [
+            "temporal_or_situational"
+          ],
+          "explicitness": "explicit",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__mp__15",
+          "text": "I crossed from planning to action during a past suicidal crisis, and I survived.",
+          "expression_modes": [
+            "uncommon_but_plausible"
+          ],
+          "explicitness": "mixed",
+          "temporality": "past",
+          "curation_status": "revised"
+        }
+      ]
+    }
+  ],
+  "curation_version": "1.1.0",
+  "source_generation_file": "meta_prompting__risk_levels.json",
+  "curation_note": "Human-directed boundary, coverage, naturalness, and safety revision; changed original text is preserved in curation_manifest.json."
+}

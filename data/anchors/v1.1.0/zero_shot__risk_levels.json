@@ -1,0 +1,398 @@
+{
+  "prompting_strategy": "zero_shot",
+  "prompt_version": "1.0.0",
+  "batch_name": "risk_levels",
+  "targets": [
+    {
+      "target_type": "risk_level",
+      "target_label": "Indicator",
+      "anchor_role": "hard_negative",
+      "phrases": [
+        {
+          "id": "risk_levels__indicator__zs__01",
+          "text": "I feel overwhelmed by everything happening in my life.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__zs__02",
+          "text": "I have been deeply sad for several weeks.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__zs__03",
+          "text": "I am struggling to cope with constant stress.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__zs__04",
+          "text": "I feel completely exhausted by my daily responsibilities.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__zs__05",
+          "text": "I have lost interest in activities I usually enjoy.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__zs__06",
+          "text": "I feel isolated because I have nobody to confide in.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__zs__07",
+          "text": "I cannot stop worrying about my financial problems.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__zs__08",
+          "text": "I am having difficulty managing my intense emotions.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__zs__09",
+          "text": "I feel worthless whenever I compare myself with others.",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__zs__10",
+          "text": "I am devastated by the recent end of an important relationship.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__zs__11",
+          "text": "I struggle to get through ordinary tasks when my depression worsens.",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__zs__12",
+          "text": "I feel trapped in a job that causes constant distress.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__zs__13",
+          "text": "I have barely slept because my thoughts keep racing.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__zs__14",
+          "text": "I am frightened by how uncertain my future feels.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__indicator__zs__15",
+          "text": "I find it difficult to function while dealing with chronic pain.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        }
+      ]
+    },
+    {
+      "target_type": "risk_level",
+      "target_label": "Ideation",
+      "anchor_role": "positive",
+      "phrases": [
+        {
+          "id": "risk_levels__ideation__zs__01",
+          "text": "I keep thinking about ending my life.",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__zs__02",
+          "text": "I wish I were dead right now.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__zs__03",
+          "text": "I have recurring thoughts of suicide.",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__zs__04",
+          "text": "I sometimes feel that I want to die.",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__zs__05",
+          "text": "I am thinking about taking my own life.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__zs__06",
+          "text": "I repeatedly wonder whether I should end my life.",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__zs__07",
+          "text": "I cannot stop thinking that death would be preferable.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__zs__08",
+          "text": "I often have the wish not to be alive anymore.",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__zs__09",
+          "text": "I am experiencing thoughts about killing myself.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__zs__10",
+          "text": "I find myself wishing that my life would end.",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__zs__11",
+          "text": "I have been wondering if I would be better off dead.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__zs__12",
+          "text": "I frequently think about no longer being alive.",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__zs__13",
+          "text": "I currently feel a strong desire to die.",
+          "temporality": "current",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__zs__14",
+          "text": "I keep having thoughts about ending my existence.",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        },
+        {
+          "id": "risk_levels__ideation__zs__15",
+          "text": "I sometimes wish my life could simply be over.",
+          "temporality": "recurring",
+          "curation_status": "approved_original"
+        }
+      ]
+    },
+    {
+      "target_type": "risk_level",
+      "target_label": "Behavior",
+      "anchor_role": "positive",
+      "phrases": [
+        {
+          "id": "risk_levels__behavior__zs__01",
+          "text": "I intend to end my life, and I have decided what I will do.",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__zs__02",
+          "text": "My suicidal thoughts have turned into a decision, and I have begun preparing to act.",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__zs__03",
+          "text": "I have chosen a time when I intend to take my own life.",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__zs__04",
+          "text": "I am putting my affairs in order because I intend to end my life.",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__zs__05",
+          "text": "I have written messages for people to find after I end my life.",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__zs__06",
+          "text": "I am giving away important belongings because I do not expect to remain alive.",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__zs__07",
+          "text": "I have taken concrete preparatory steps toward acting on my wish to die.",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__zs__08",
+          "text": "I keep something accessible because I intend to use it to end my life.",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__zs__09",
+          "text": "My suicidal thoughts now lead me to hurt myself intentionally.",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__zs__10",
+          "text": "I made a firm decision to die and started clearing future obligations.",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__zs__11",
+          "text": "I am arranging who will handle my responsibilities after I take my own life.",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__zs__12",
+          "text": "I selected a time to carry out my decision to end my life.",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__zs__13",
+          "text": "I prepared a final message because I intend to die by suicide.",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__zs__14",
+          "text": "My suicidal thoughts have progressed into deliberately harming myself.",
+          "temporality": "current",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__behavior__zs__15",
+          "text": "I have begun hurting myself on purpose when I feel like dying.",
+          "temporality": "current",
+          "curation_status": "revised"
+        }
+      ]
+    },
+    {
+      "target_type": "risk_level",
+      "target_label": "Attempt",
+      "anchor_role": "positive",
+      "phrases": [
+        {
+          "id": "risk_levels__attempt__zs__01",
+          "text": "I tried to end my life in the past.",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__zs__02",
+          "text": "I survived after acting on my intention to die.",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__zs__03",
+          "text": "During an earlier crisis, I did something intended to end my life.",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__zs__04",
+          "text": "I received treatment after I acted on a wish to die.",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__zs__05",
+          "text": "Years ago, I followed through on suicidal intent and survived.",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__zs__06",
+          "text": "I once took action because I intended not to live.",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__zs__07",
+          "text": "Recently, I acted on suicidal thoughts and required emergency care.",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__zs__08",
+          "text": "I previously tried to take my own life.",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__zs__09",
+          "text": "I am recovering after carrying out a suicidal act.",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__zs__10",
+          "text": "In the past, I went beyond planning and acted to end my life.",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__zs__11",
+          "text": "I survived a deliberate act intended to cause my death.",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__zs__12",
+          "text": "I once acted with the intention of dying.",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__zs__13",
+          "text": "I made a suicide attempt during an earlier crisis.",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__zs__14",
+          "text": "I recently survived a suicide attempt.",
+          "temporality": "past",
+          "curation_status": "revised"
+        },
+        {
+          "id": "risk_levels__attempt__zs__15",
+          "text": "My history includes a suicide attempt that I carried out.",
+          "temporality": "past",
+          "curation_status": "revised"
+        }
+      ]
+    }
+  ],
+  "curation_version": "1.1.0",
+  "source_generation_file": "zero_shot__risk_levels.json",
+  "curation_note": "Human-directed boundary, coverage, naturalness, and safety revision; changed original text is preserved in curation_manifest.json."
+}
